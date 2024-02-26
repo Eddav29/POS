@@ -9,7 +9,7 @@
     <h1>Home and Care</h1>
     
     
-    <p><a href="{{ route('products.index') }}">Kembali ke Daftar Produk</a></p>
+
     
 
     

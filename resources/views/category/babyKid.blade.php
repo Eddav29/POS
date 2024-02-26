@@ -7,10 +7,7 @@
 </head>
 <body>
     <h1>Baby and kids</h1>
-    
-    
-    <p><a href="{{ route('products.index') }}">Kembali ke Daftar Produk</a></p>
-    
+       
 
     
 </body>

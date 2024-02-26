@@ -8,11 +8,6 @@
 <body>
     <h1>Selamat datang di Point of Sales!</h1>
     
-   
-    <ul>
-        <li><a href="{{ route('products.index') }}">Daftar Produk</a></li>
-        <li><a href="{{ route('sales.index') }}">Halaman Penjualan</a></li>
-        <li><a href="{{ route('user.show', ['id' => 1, 'name' => 'John']) }}">Profil Pengguna</a></li>
-    </ul>
+
 </body>
 </html>

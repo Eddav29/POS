@@ -9,7 +9,5 @@
     <h1>Halaman Penjualan (Sales)</h1>
     
     
-    <!-- Tambahkan link kembali ke halaman utama -->
-    <p><a href="{{ url('/') }}">Kembali ke Halaman Utama</a></p>
-</body>
+    </body>
 </html>

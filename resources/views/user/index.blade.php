@@ -13,6 +13,5 @@
     <p>Nama Pengguna: {{ $name }}</p>
     
     <!-- Tambahkan link kembali ke halaman utama -->
-    <p><a href="{{ url('/') }}">Kembali ke Halaman Utama</a></p>
 </body>
 </html>

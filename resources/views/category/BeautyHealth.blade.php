@@ -9,8 +9,7 @@
     <h1>Beauty & Health</h1>
     
 
-    <p><a href="{{ route('category.index') }}">Kembali ke Daftar Produk</a></p>
-    
+   
 
     
 </body>

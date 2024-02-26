@@ -5,25 +5,25 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ProductsController extends Controller
+class ProductController extends Controller
 {
     public function index() {
-        return view('products.index');
+        return view('category.index');
     }
 
     public function foodBeverage() {
-        return view('products.foodBeverages');
+        return view('category.foodBeverages');
     }
 
     public function beautyHealth() {
-        return view('products.beautyHealth');
+        return view('category.beautyHealth');
     }
 
     public function homeCare() {
-        return view('products.homeCare');
+        return view('category.homeCare');
     }
 
     public function babyKid() {
-        return view('products.babyKid');
+        return view('category.babyKid');
     }
 }

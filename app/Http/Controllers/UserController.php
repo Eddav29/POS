@@ -2,18 +2,17 @@
 
 namespace App\Http\Controllers;
 
+
 use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    public function show($id, $name)
+    public function index($userId, $nameUser)
     {
-        $user = [
-            '2241720232' => $id,
-            'Eddo Dava' => $name,
-        ];
-
-        // Tampilkan view profil pengguna dengan membawa data pengguna
-        return view('user.show', $user);
+        return view('user.index', [
+            "id" => $userId,
+            "name" => $nameUser
+        ]);
     }
 }
+

@@ -9,10 +9,10 @@
     <h1>Daftar Produk</h1>
 
     <ul>
-        <li><a href="{{ route('category.food_beverage') }}">Food & Beverage</a></li>
-        <li><a href="{{ route('category.beauty_health') }}">Beauty & Health</a></li>
-        <li><a href="{{ route('category.home_care') }}">Home Care</a></li>
-        <li><a href="{{ route('category.baby_kid') }}">Baby & Kid</a></li>
+        <li><a href="/category/food-beverage">Food Beverage</a></li>
+        <li><a href="/category/beauty-health">Beauty Health</a></li>
+        <li><a href="/category/home-care">Home Care</a></li>
+        <li><a href="/category/baby-kid">Baby Kid</a></li>
     </ul>
     
 </body>

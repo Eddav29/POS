@@ -7,10 +7,7 @@
 </head>
 <body>
     <h1>Food & Beverage</h1>
-    
-
-    <p><a href="{{ route('category.index') }}">Kembali ke Daftar Produk</a></p>
-    
+        
 
     
 </body>
